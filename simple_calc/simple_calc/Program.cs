@@ -17,7 +17,7 @@ namespace simple_calc
                 double b;
                 double total;
                 char oper;
-
+                Console.WriteLine("Здравствуйте!!!");
                 Console.WriteLine("Введите первое число:");
                 a = Convert.ToDouble(Console.ReadLine());
 
