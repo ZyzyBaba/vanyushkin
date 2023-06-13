@@ -18,7 +18,7 @@ namespace simple_calc
                 double total;
                 char oper;
 
-                Console.WriteLine("Введитефвлдыаоывфадлыфвоаждлываолыфждаолдвыаодлыф первое число:");
+                Console.WriteLine("Введите первое число:");
                 a = Convert.ToDouble(Console.ReadLine());
 
                 Console.WriteLine("Введите оператор:");
