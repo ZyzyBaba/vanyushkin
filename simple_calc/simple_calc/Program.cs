@@ -10,8 +10,8 @@ namespace simple_calc
     {
         static void Main(string[] args)
         {
-            char again = 'д';
-            while(again=='д')
+            char again = 'y';
+            while(again=='y')
             {
                 double a;
                 double b;
@@ -61,7 +61,7 @@ namespace simple_calc
                 {
                     Console.WriteLine("Неизвестный оператор.");
                 }
-                Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
+                Console.WriteLine("Зaвершить рaботу прoгрaммы (y/n)");
                 again = Convert.ToChar(Console.ReadLine());
             }
         }
